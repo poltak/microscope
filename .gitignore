@@ -1,3 +1,4 @@
 .meteor/local
 .idea/
 project.sublime-project
+*zzz.ts-compiler.ts
