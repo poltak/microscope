@@ -1,6 +1,4 @@
-/// <reference path="../../../.meteor/local/build/programs/server/assets/packages/meteortypescript_typescript-libs/definitions/all-definitions.d.ts" />
-
-Template['postEdit'].events({
+Template.postEdit.events({
   'submit form': function(event) {
     event.preventDefault();
 
@@ -20,7 +18,7 @@ Template['postEdit'].events({
     });
   },
 
-  'click .delete': function (event) {
+  'click .delete': function(event) {
     event.preventDefault();
 
     if (confirm("Delete this post?")) {
